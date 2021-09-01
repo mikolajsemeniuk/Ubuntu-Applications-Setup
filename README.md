@@ -29,6 +29,7 @@ sudo apt-get remove --auto-remove golang-go
 # Install
 sudo apt install docker.io
 sudo systemctl status docker # show docker status
-sudo systemctl enable --now docker # start docker
-sudo systemctl disable --now docker # down docker
+sudo systemctl start docker
+sudo systemctl stop docker.socket
+sudo systemctl restart docker
 ```
