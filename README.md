@@ -39,3 +39,4 @@ sudo chmod +x /usr/bin/docker-compose
 #
 sudo chown $USER /var/run/docker.sock
 ```
+### [Videos](https://linuxhint.com/install_multimedia_codecs_ubuntu/)
