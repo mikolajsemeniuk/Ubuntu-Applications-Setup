@@ -16,6 +16,11 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt-get update
 sudo apt-get install sublime-text
 ```
+### Intellij
+* [install intellij ubuntu linux](https://itsfoss.com/install-intellij-ubuntu-linux/)
+```sh
+sudo snap install intellij-idea-community --classic
+```
 ### Golang
 ```sh
 # Install
@@ -38,5 +43,15 @@ sudo mv /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo chmod +x /usr/bin/docker-compose
 #
 sudo chown $USER /var/run/docker.sock
+```
+### Java
+* [amazon correto](https://aws.amazon.com/corretto/)
+### C#
+[how-to-install-dotnet-cli-tools-on-ubuntu-18-10-for-vscode](https://stackoverflow.com/questions/52988294/how-to-install-dotnet-cli-tools-on-ubuntu-18-10-for-vscode)
+```sh
+# paste line below in `/etc/apt/sources.list`
+deb [arch=amd64] https://packages.microsoft.com/ubuntu/18.04/prod bionic main
+sudo apt-get update
+sudo apt-get install dotnet-sdk-5.0
 ```
 ### [Videos](https://linuxhint.com/install_multimedia_codecs_ubuntu/)
