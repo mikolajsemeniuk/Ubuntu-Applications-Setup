@@ -21,14 +21,6 @@ sudo apt-get install sublime-text
 ```sh
 sudo snap install intellij-idea-community --classic
 ```
-### Golang
-```sh
-# Install
-sudo apt install golang-go 
-# Uninstall
-sudo apt-get remove golang-go
-sudo apt-get remove --auto-remove golang-go
-```
 ### Conda
 [Install Conda on linux](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 ### Docker
@@ -45,6 +37,14 @@ sudo mv /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo chmod +x /usr/bin/docker-compose
 #
 sudo chown $USER /var/run/docker.sock
+```
+### Golang
+```sh
+# Install
+sudo apt install golang-go 
+# Uninstall
+sudo apt-get remove golang-go
+sudo apt-get remove --auto-remove golang-go
 ```
 ### Java
 * [amazon correto](https://aws.amazon.com/corretto/)
