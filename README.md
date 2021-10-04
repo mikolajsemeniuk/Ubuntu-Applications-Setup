@@ -29,6 +29,8 @@ sudo apt install golang-go
 sudo apt-get remove golang-go
 sudo apt-get remove --auto-remove golang-go
 ```
+### Conda
+[Install Conda on linux](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 ### Docker
 ```sh
 # Install
