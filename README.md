@@ -15,6 +15,9 @@ sudo apt-get install apt-transport-https
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt-get update
 sudo apt-get install sublime-text
+
+## add to path
+alias subl="open -a /Applications/Sublime\ Text.app"
 ```
 ### Intellij
 * [install intellij ubuntu linux](https://itsfoss.com/install-intellij-ubuntu-linux/)
