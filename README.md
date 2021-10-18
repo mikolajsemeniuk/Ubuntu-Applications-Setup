@@ -17,7 +17,9 @@ sudo apt-get update
 sudo apt-get install sublime-text
 
 ## add to path
-alias subl="open -a /Applications/Sublime\ Text.app"
+ls -a ~/
+nano ~/.zshrc # if do not have it 
+echo "alias subl='open -a /Applications/Sublime\ Text.app'" >> ~/.zshrc
 ```
 ### Intellij
 * [install intellij ubuntu linux](https://itsfoss.com/install-intellij-ubuntu-linux/)
